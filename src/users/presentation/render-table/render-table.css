@@ -14,12 +14,21 @@ img {
     padding-right: 2px;
 }
 
-a {
+a.img1 {
     padding-top: 5px;
     transition: background-color .5s;
     border-radius: 5px;
 }
 
-a:hover {
+a.img1:hover {
     background-color: rgba(42, 104, 213, 0.392);
+}
+a.img2 {
+    padding-top: 5px;
+    transition: background-color .5s;
+    border-radius: 5px;
+}
+
+a.img2:hover {
+    background-color: rgba(213, 42, 42, 0.392);
 }

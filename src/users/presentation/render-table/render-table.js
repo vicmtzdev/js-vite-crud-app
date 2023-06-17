@@ -49,8 +49,8 @@ export const renderTable = (element) => {
             <td>${user.isActive}</td>
             <td>
 
-                <a href="#/" data-id="${user.id}"><img src="./src/assets/edit.svg"></img></a>
-                <a href="#/" data-id="${user.id}"><img src="./src/assets/x.svg"></img></a>
+                <a class="img1" href="#/" data-id="${user.id}"><img src="./src/assets/edit.svg"></img></a>
+                <a class="img2" href="#/" data-id="${user.id}"><img src="./src/assets/x.svg"></img></a>
 
             </td>
         </tr>
