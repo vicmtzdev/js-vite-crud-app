@@ -1,0 +1,25 @@
+table {
+    background-color: rgba(0, 0, 0, 0.348);
+    border-radius: 5px;
+    padding: 5px;
+}
+
+th {
+    padding: 5px;
+}
+
+img {
+    padding-top: 5px;
+    padding-left: 2px;
+    padding-right: 2px;
+}
+
+a {
+    padding-top: 5px;
+    transition: background-color .5s;
+    border-radius: 5px;
+}
+
+a:hover {
+    background-color: rgba(42, 104, 213, 0.392);
+}
