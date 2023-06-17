@@ -21,6 +21,6 @@ document.querySelector('#app').innerHTML = `
 
 const element = document.querySelector('.card');
 
-App(element);
+// App(element);
 
 
