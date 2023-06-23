@@ -34,6 +34,7 @@ input {
     border-radius: 5px;
     padding: 5px;
     background-color: white;
+    color: black;
 }
 
 :focus {
@@ -78,4 +79,8 @@ input[type="checkbox"] {
 .savef:hover {
     border-color: #47D58C;
     color: #47D58C;
+}
+.savef:focus,
+.savef:focus-visible {
+    outline: 4px #47D58C;
 }
